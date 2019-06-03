@@ -1,11 +1,10 @@
 --This library handles a variety of table-based operations, which can be quite useful.
 --@author fq_d, MICHEAL1988351, Quenty, Narrev
-local setmetatable, getmetatable = setmetatable, getmetatable
-local table = table
+local setmetatable = setmetatable
 local type = type
-local pairs, next, ipairs = pairs, next, ipairs
+local next = next
 local tostring = tostring
-local math = math local floor = math.floor local rng = math.random
+local floor = math.floor local rng = math.random
 local TableFunctions = setmetatable({ }, { __index = table })
 
 --[[
